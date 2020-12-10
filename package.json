@@ -1,0 +1,21 @@
+{
+  "name": "gitwebhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start_prod": "node -r dotenv/config app.js",
+    "start_local": "nodemon -r dotenv/config app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
